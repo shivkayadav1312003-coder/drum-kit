@@ -1,0 +1,89 @@
+body {
+    margin:0;
+    width:100%;
+    background-color:#143D60; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:lighter;
+    font-style: italic;
+    font-kerning: 1rem;
+
+}
+
+.heading {
+    display:flex;
+    justify-content:center;
+    color:#143D60;
+    font-size: 1.5rem;
+    background-color:#86bc50;
+    border-radius:30px;
+    margin-left:10%;
+    margin-right:10%;
+    padding-left:10px;
+}
+
+#outer {  
+    background-color:#d8e894;
+    padding:20px;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    background-color:#F79F24;
+    width:60%;
+    margin:50px;
+    margin-left:20%;
+    z-index:2;
+}
+
+
+.drum {
+    position:absolute;
+    width:80px;
+    cursor: pointer;
+
+}
+
+.stick {   
+   
+    z-index:1;
+    width:20px;
+}
+
+.snare {
+  
+    z-index:1;
+    width:20px;
+}
+
+.cymbals {
+    z-index:1;
+    width:20px;
+}
+
+.bass {
+    z-index:1;
+    width:20px;
+}
+
+
+.keys {
+    background-color:#FFEED0;
+    width:80%;
+    margin-left:10%;
+    border-radius:10px;
+}
+
+.one {
+    font-size:30px;
+    font-weight:bold;
+    margin:10%;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+}
