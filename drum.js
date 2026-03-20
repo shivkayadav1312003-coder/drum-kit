@@ -17,19 +17,19 @@ function SoundWave(){
 function playSound(key){
     switch(key){
         case "a":
-            new Audio("sounds/cymbals.mp3").play();
+            new Audio("cymbals.mp3").play();
             break;
 
         case "s":
-            new Audio("sounds/stick.mp3").play();
+            new Audio("stick.mp3").play();
             break;
 
         case "d":
-            new Audio("sounds/snare drum.mp3").play();
+            new Audio("snare drum.mp3").play();
             break;
 
         case "k":
-            new Audio("sounds/bass.mp3").play();
+            new Audio("bass.mp3").play();
             break;
     }
 }
